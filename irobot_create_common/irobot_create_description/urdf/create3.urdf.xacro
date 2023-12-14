@@ -291,7 +291,8 @@
         <update_frequency>62</update_frequency>
       </plugin>
     </gazebo>
-    
+
+  <!--  to include in world file: 
     <gazebo>
       <plugin filename="libignition-gazebo-contact-system.so" name="ignition::gazebo::systems::Contact"></plugin>
     </gazebo>
@@ -301,5 +302,6 @@
         <render_engine>ogre</render_engine>
       </plugin>
     </gazebo>
+  -->
   </xacro:if>
 </robot>
